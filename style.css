@@ -117,3 +117,154 @@
     height: 40px;
   }
 
+  @media screen and (max-width: 1024px) {
+    body {
+      font-size: 14px;
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    section h2 {
+      color: #00bfff;
+      font-size: 24px;
+      text-decoration: underline;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      line-height: 1.4;
+      margin-bottom: 5px;
+    }
+
+    .redes-sociales img {
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s ease;
+    }
+
+    .tecnologias li img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      margin: 0 5px;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    .redes-sociales span {
+      margin: 0 5px;
+    }
+
+    section {
+      background-color: #333;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 5px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .redes-sociales-text {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      margin: 0 5px;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    section h2 {
+      color: #00bfff;
+      font-size: 24px;
+      text-decoration: underline;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      line-height: 1.4;
+      margin-bottom: 5px;
+    }
+
+    .redes-sociales img {
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s ease;
+    }
+
+    .tecnologias li img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      margin: 0 5px;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    .redes-sociales span {
+      margin: 0 5px;
+    }
+
+    section {
+      background-color: #333;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 5px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .redes-sociales-text {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  }
