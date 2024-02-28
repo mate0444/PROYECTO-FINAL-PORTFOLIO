@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -91,6 +90,12 @@ footer {
 .tecnologias li img {
   width: 30px;
   height: 30px;
+}
+
+textarea {
+  width: 30rem; 
+  height: 90px; 
+  resize: none; 
 }
 
 @media screen and (max-width: 1024px) {
@@ -188,5 +193,6 @@ footer {
     width: 100%;
   }
 }
+
 
 

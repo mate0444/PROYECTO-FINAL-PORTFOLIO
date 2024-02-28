@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const button = document.getElementById('boton');
     button.disabled = true;
     const data = new FormData(form);
-    const apiKey = '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';
     const body = {
       "sender": {
         "name": "Portafolio",
@@ -55,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch("https://api.brevo.com/v3/smtp/email", {
       method: 'POST',
       headers: {
-        'api-key': apiKey,
+    
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(body)
@@ -64,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(data => {
       console.log(data);
       form.reset();
+      window.location.reload();
     })
     .finally(data=>{
       button.disabled = false;
