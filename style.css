@@ -98,6 +98,13 @@ textarea {
   resize: none; 
 }
 
+.right-aligned-image {
+  float: right;
+  margin-left: 20px;
+  max-width: 50%;
+  margin-top: -20px;
+}
+
 @media screen and (max-width: 1024px) {
   body {
     font-size: 14px;
@@ -143,6 +150,13 @@ textarea {
     position: fixed;
     bottom: 0;
     width: 100%;
+  }
+
+  .right-aligned-image {
+    float: none;
+    margin: 10px auto;
+    max-width: 100%;
+    margin-top: 0;
   }
 }
 
@@ -192,7 +206,11 @@ textarea {
     bottom: 0;
     width: 100%;
   }
+
+  .right-aligned-image {
+    float: none;
+    margin: 10px auto;
+    max-width: 100%;
+    margin-top: 0;
+  }
 }
-
-
-

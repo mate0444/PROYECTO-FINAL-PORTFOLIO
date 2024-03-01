@@ -15,9 +15,21 @@ document.addEventListener("DOMContentLoaded", function() {
       scrollPosition = Math.max(0, targetSection.offsetTop - windowHeight + contactSectionHeight + footerHeight);
     }
 
-    window.scrollTo({
-      top: scrollPosition,
-      behavior: "smooth"
+    const startingY = window.pageYOffset;
+    const diff = scrollPosition - startingY;
+    const duration = 1000;
+    let start;
+
+    window.requestAnimationFrame(function step(timestamp) {
+      if (!start) start = timestamp;
+      const time = timestamp - start;
+      const percent = Math.min(time / duration, 1);
+
+      window.scrollTo(0, startingY + diff * percent);
+
+      if (time < duration) {
+        window.requestAnimationFrame(step);
+      }
     });
   }
 
@@ -54,7 +66,6 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch("https://api.brevo.com/v3/smtp/email", {
       method: 'POST',
       headers: {
-    
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(body)
