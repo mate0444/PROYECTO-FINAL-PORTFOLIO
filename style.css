@@ -149,8 +149,9 @@ footer{
     section h2{
         font-size: 26px;
     }
+}
 
-    @media (max-width: 480px){
+@media (max-width: 480px){
         nav{
             flex-direction: column;
             gap: 10px;
@@ -161,4 +162,3 @@ footer{
         }
         
     }
-}
