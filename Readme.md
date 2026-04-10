@@ -12,7 +12,7 @@ Sitio web personal de portfolio desarrollado con HTML, CSS y JavaScript puro. Pe
 
 ## 📸 Vista previa
 
-> _(Podés agregar un screenshot del sitio acá)_
+![alt text](image.png)
 
 ---
 
