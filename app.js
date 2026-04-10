@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
+  const yearNode = document.getElementById("current-year");
+  if (yearNode) {
+    yearNode.textContent = String(new Date().getFullYear());
+  }
+
   const links = document.querySelectorAll("nav a");
 
   function scrollToSection(event) {
