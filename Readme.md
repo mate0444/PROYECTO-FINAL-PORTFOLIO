@@ -6,7 +6,7 @@ Sitio web personal de portfolio desarrollado con HTML, CSS y JavaScript puro. Pe
 
 ## 🚀 Demo en vivo
 
-> Próximamente / [Ver en GitHub Pages](https://tu-usuario.github.io/portfolio)
+> Próximamente / [Ver en GitHub Pages](https://mate0444.github.io/portfolio)
 
 ---
 
